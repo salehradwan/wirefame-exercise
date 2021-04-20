@@ -1,0 +1,75 @@
+.cont {
+    display: grid;
+    grid-template-rows: 100px 1fr 150px;
+}
+body {
+    width: 960px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+header {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    align-items: center;
+    background: #393232;
+    /* margin: 10px; */
+  }
+  header img {
+      padding-left: 70px;
+  }
+  header nav {
+      width: 100%;
+      text-align: right;
+  }
+  header nav a {
+      display: inline-block;
+      padding: 20px 50px 20px 15px;
+      text-decoration: none;
+      color: white;
+      position: relative;
+      margin-right: 10px;
+  }
+
+  main  {
+    margin: 20px 60px;
+  }
+
+  main > img {
+      margin-bottom: 30px;
+  }
+  main section:nth-child(2) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-bottom: 30px;
+  }
+
+  main section:nth-child(3) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      display: flex;
+      /* justify-content: flex-start; */
+      
+  }
+  main section div {
+      width: 100%;
+  }
+  main section div p {
+      margin-left: 30px;
+      overflow: scroll;
+      width: 300px;
+      height: 400px;
+  }
+  main section div button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+  }
+footer {
+    background: black;
+}
