@@ -70,6 +70,10 @@ header {
     height: 50px;
     margin-left: 30px;
   }
+  main section div button:hover {
+    color: #126e82;
+    background-color: #51c4d3;
+}
 footer {
     background: black;
 }
